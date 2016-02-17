@@ -1,0 +1,211 @@
+html {
+height:100%;
+width:100%;
+padding:0 auto;
+margin:0 auto;
+    overflow-x:hidden;
+font-family: 'Marvel', sans-serif;
+}
+
+body {
+ background-color:#333333;
+    background: url(bg.jpg) no-repeat top center fixed;
+    background-size:cover;
+  padding:0 auto;
+    margin:0 auto;
+color:#FFFFFF;    
+}
+
+img.logo{
+display:inline;position:absolute;width:150px;
+    top:12px;left:20px;
+}
+
+div.menu{
+ text-align:center;
+margin-top:15px;margin-left:465px;    
+}
+
+a.mitem{
+color:rgba(255,255,255,0.3);
+    text-decoration:none;
+    letter-spacing:2px;
+    text-align:center;
+    margin:10px 15px;
+    padding:2px 4px;
+    border:1px solid transparent;
+}
+
+a.mitem:hover{
+ color:#FFFFFF;
+    transition:.65s ease;
+        border-bottom:1px solid white;
+
+}
+
+div#countdown{
+ font-size:48pt;   
+}
+
+a.mitem:active{
+ color:rgba(255,255,255,0.5);
+   
+}
+div.frontsection{
+width:50%;
+    margin-top:145px;
+    margin-left:45px;
+    font-weight:light;
+    letter-spacing:3px;
+    margin-bottom:200px;
+}
+
+div.frontsection p {
+ text-align:center;
+    font-size:16pt;
+    text-shadow:2px 2px 7px #333;
+}
+
+div.frontsection h1 {
+ text-align:center;   
+}
+
+
+a.moreinfo {
+border:1px solid white;
+background-color:white;
+color:black;
+padding:6px 25px;
+text-decoration:none;border-radius:15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a.moreinfo:hover {
+background-color:rgba(255,255,255,1);    
+transition:all .4s ease;color:red;
+}
+
+a.moreinfo:active{
+background-color:rgba(255,255,255,0.8);color:black;    
+}
+
+a.login{
+border:1px solid white;
+background-color:#ff406d; 
+padding:6px 18px;
+color:#FFFFFF;
+text-decoration:none;    
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+a.login:hover{
+ background-color:#ff7394;
+    transition:all .4s ease;   
+}
+
+a.login:active{
+background-color:#ff406d; 
+}
+
+div.pg1{
+ color:#FFFFFF;
+  background-color:white;
+    margin:0 auto;
+    background:url('moto.gif') no-repeat top center fixed;
+    background-size:cover;
+    height:auto;width:100%;
+    text-shadow:2px 2px 7px #333;
+    text-align:center;
+}
+
+div.pg1 h1{
+ text-shadow:2px 2px 7px #333;   
+    margin-top: 5px;font-size:48pt;
+    position:relative;width:100%;
+    text-align:center;
+}
+
+div.pg1 h2{
+   padding-left:280px;
+   padding-right:280px;
+    letter-spacing:2px;
+}
+
+div.about{
+ color:#999;
+  background-color:white;
+    margin:0 auto;
+    height:auto;width:100%;
+    padding-bottom:0 auto;
+    margin-bottom:0 auto;
+}
+
+fieldset.cover{
+ padding:0 auto;
+    margin:0 auto;
+    background-color:rgba(55,55,55,0.5);
+    width:100%;
+    height:100%;
+    border:1px solid transparent;
+}
+
+input.account{
+ display:block;
+width:270px;
+    height:35px;
+    margin-bottom:3.5px;
+    background-color:rgba(235,235,235,0.5);
+    border:1px solid rgba(255,255,255,0);
+    padding-left:5px;
+    padding-right:5px;
+    color:black;font-size:12pt;
+    letter-spacing:2px;outline:none;
+}
+
+input.account:focus{
+ border:1px solid #FFFFFF;
+    transition:all .4s ease;
+}
+
+input.submitbt{
+ width:280px;
+    height:40px;
+   background:none;
+    background-color:#ff406d;
+    color:#FFFFFF;
+    border:1px solid #ff406d;border-radius:5px;
+    margin-top:5px;font-size:14pt;
+    cursor:pointer;letter-spacing:1px;
+    
+}
+
+
+::-webkit-input-placeholder {
+   color: rgba(255,255,255,0.6);}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;text-shadow:1px 1px 7px #333;
+    letter-spacing:2px;}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;text-shadow:1px 1px 7px #333;
+    letter-spacing:2px;}
+
+:-ms-input-placeholder {  
+   color: white;text-shadow:1px 1px 7px #333;
+    letter-spacing:2px;
+}
+
+div.regleft{
+ float:left;
+    padding-left:35px;
+    width:45%;
+}
+
+div.regright{
+ float:right;
+    margin-right:35px;
+    width:45%;
+}
+
+div.spacer{margin-left:145px;margin-right:145px;}
